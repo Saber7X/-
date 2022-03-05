@@ -1,0 +1,59 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string a,b,c;
+    cin>>a>>b>>c;
+    if(a=="vertebrado")
+    {
+        if(b=="ave")
+        {
+            if(c=="carnivoro")
+            {
+                cout<<"aguia";
+            }
+            if(c=="onivoro")
+            {
+                cout<<"pomba";
+            }
+        }
+        if(b=="mamifero")
+        {
+            if(c=="onivoro")
+            {
+                cout<<"homem";
+            }
+            if(c=="herbivoro")
+            {
+                cout<<"vaca";
+            }
+        }
+    }
+    if(a=="invertebrado")
+    {
+        if(b=="inseto")
+        {
+            if(c=="hematofago")
+            {
+                cout<<"pulga";
+            }
+            if(c=="herbivoro")
+            {
+                cout<<"lagarta";
+            }
+        }
+        if(b=="anelideo")
+        {
+            if(c=="hematofago")
+            {
+                cout<<"sanguessuga";
+            }
+            if(c=="onivoro")
+            {
+                cout<<"minhoca";
+            }
+        }
+        
+    }
+    return 0;
+}
